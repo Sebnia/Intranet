@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Intranet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
-    
+    <div class="container">
+
+    <h1>Registro de Alumno</h1>
+    <form action="login.html" method="post">
+        <div class="form-group">
+            <label for="click">DNI Apoderado:</label>
+            <input type="text" name="nombre_completo" id="click" required class="form-control" placeholder="Documento de Identidad (Apoderado)">
+        </div>
+        <div class="form-group">
+            <label for="click1">Nombre Completo Apoderado:</label>
+            <input type="text" name="nombre_completo" id="click1" required class="form-control" placeholder="Nombre del Apoderado">
+        </div>
+
+        <div class="form-group">
+            <label for="click2">DNI Alumno:</label>
+            <input type="text" name="nombre_completo" id="click2" required class="form-control" placeholder="Documento de Identidad (Alumno)">
+        </div>
+        <div class="form-group">
+            <label for="click3">Nombre Completo Alumno:</label>
+            <input type="text" name="nombre_completo" id="click3" required class="form-control" placeholder="Nombre del Alumno">
+        </div>
+        <div class="form-group">
+            <label for="click4">Correo de Contacto:</label>
+            <input type="email" name="correo" id="click4" class="form-control" placeholder="Correo Electronico">
+        </div>
+        <div class="form-group">
+            Sexo del Estudiante:
+            <label><input type="radio" name="sexo" value="F"> Femenino</label>
+            <label><input type="radio" name="sexo" value="M"> Masculino</label>
+        </div>
+        <div class="form-group">
+            Contraseña 
+            <input type="password" name="correo" class="form-control" placeholder="Contraseña">
+        </div>
+        <button class="btn btn-dark">Registrarse</button>
+    </form>
+
+    </div>
 </body>
 </html>
